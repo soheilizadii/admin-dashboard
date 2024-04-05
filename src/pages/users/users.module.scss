@@ -1,0 +1,22 @@
+.avatar{
+    widtH:32px;
+    height:32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+
+    button{
+        background: #1267a5;
+        color: white;
+        padding: 11px;
+        font-weight: 400;
+        border-radius: 5px;
+        border: solid #535050 1px;
+        cursor: pointer;
+    }
+}

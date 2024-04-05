@@ -1,0 +1,14 @@
+.dataTable{
+    .dataGrid{
+        background-color: white;
+        padding:20px;
+        font-size: 0.8rem;
+        :global(.MuiDataGrid-toolbarContainer) {
+            flex-direction: row-reverse;
+        }
+
+        :global(.css-1knaqv7-MuiButtonBase-root-MuiButton-root){
+            margin-right:20px;
+        }
+    }
+}

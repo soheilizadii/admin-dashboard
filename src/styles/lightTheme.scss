@@ -1,0 +1,34 @@
+.mainApp.light{
+    background-color: whitesmoke;
+    color: #313131;
+   
+    .chartBox_chartBox__CN0xh .chartBox_text__8AqwV span:last-child{
+        color:#5f5f5f;
+    }
+    .notification span{
+        color:white;
+    }
+    .box{
+        border: solid 1px #d1d1d1;
+        background: #eeeded;
+    }
+  
+    .dataTable_dataTable__6KKKo .dataTable_dataGrid__HH\+y0{
+        border:solid #cbcbcb 1px;
+    }
+    .add_container__yXdQX .add_add__9jXAJ{
+        color:white;
+    }
+    .menu_container__13Jea{
+        border-right:solid  #c2c2c2 2px;
+    }
+    .menu_items__h-2HE .menu_title__oRLV3{
+        color:#313131;
+
+    }
+    .menu_items__h-2HE .menu_action__J8DV-{
+        &:hover{
+          color:white;
+        }
+    }
+}

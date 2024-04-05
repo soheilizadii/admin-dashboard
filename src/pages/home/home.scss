@@ -1,0 +1,22 @@
+@import "../../styles/variables.scss";
+.home{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:20px;
+  grid-auto-rows: minmax(180px, auto);
+}
+.box{
+  border:solid 1px $soft-bg;
+  border-radius: 10px;
+}
+.box1{
+    grid-row: 3 span;
+}
+.box4{
+    grid-column: 1 span ;
+    grid-row: 3 span;
+}
+.box7{
+    grid-column: 2 span;
+    grid-row: 2 span;
+}

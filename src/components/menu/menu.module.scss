@@ -1,0 +1,36 @@
+@import "../../styles/variables.scss";
+
+.container{
+  display:flex;
+  flex-direction: column;
+  width:250px;
+  padding:5px 20px;
+  border-right:solid $soft-bg 2px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+ 
+    .title{
+        color:$soft-color;
+        font-size: 0.9rem;
+        font-weight: 200;
+    }
+    .action{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 10px ;
+        border-radius: 7px;
+        svg{
+          widtH:18px;
+          heighT:18px;
+        }
+        &:hover{
+            background-color: $soft-bg;
+        }
+    }
+}
